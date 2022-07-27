@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { validateEmail } from '../../utils/helpers'
+import React, { useState } from "react";
+import {validateEmail} from "../utils/helpers";
 
-function ContactForm() {
-    const [errorMessage, setErrorMessage] = useState('');
+function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
     function handleChange(e) {
@@ -16,7 +16,7 @@ function ContactForm() {
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`A ${e.target.name} is required to contact us.`);
             } else {
                 setErrorMessage('');
             }
@@ -31,31 +31,33 @@ function ContactForm() {
         e.preventDefault();
         console.log(formState);
     }
+
     return (
         <section>
-            <h1 data-testid='h1tag'> Contact Me </h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor='name'> Name:</label>
-                    <input onBlur={handleChange} name='name' type="text" defaultValue={name}></input>
+            <h2 className="fst-italic text-muted">Contact Me!</h2>
+            <form className="mb-3 mx-5 border rounded bg-light" onSubmit={handleSubmit}>
+
+                <div className="mx-3 mt-2">
+                    <label className="form-label" htmlFor="name"> Name: </label>
+                    <input className="form-control" onBlur={handleChange} name="name" type='text' placeholder="Name" defaultValue={name}></input>
                 </div>
-                <div>
-                    <label htmlFor='email'>Email:</label>
-                    <input onBlur={handleChange} name='email' type='email' defaultValue={email}></input>
+                <div className="mx-3">
+                    <label className="form-label" htmlFor="email"> Email: </label>
+                    <input className="form-control" onBlur={handleChange} name='email' type='email' placeholder="Email" defaultValue={email}></input>
                 </div>
-                <div>
-                    <label htmlFor='message'> Your Message:</label>
-                    <textarea onBlur={handleChange} name='message' defaultValue={message} rows='5'></textarea>
+                <div className="mx-3 mb-2">
+                    <label className="form-label" htmlFor='message'> Message: </label>
+                    <textarea className="form-control" onBlur={handleChange} name='message' rows='5' placeholder='Your message here...' defaultValue={message}></textarea>
                 </div>
                 {errorMessage && (
                     <div>
                         <p className='error-text'> {errorMessage} </p>
                     </div>
                 )}
-                <button data-testid="btntag" type='submit'> Submit </button>
+                <button type="submit" className="btn btn-primary mb-2"> Submit</button>
             </form>
         </section>
-    )
-};
 
-export default ContactForm
+    )
+}
+export default Contact

@@ -1,7 +1,8 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Homepage from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume'
 import NoMatch from './pages/NoMatch';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -18,7 +19,7 @@ function App() {
             <Routes>
               <Route
                 path='/'
-                element={<Homepage />}
+                element={<About />}
               />
               <Route
                 path="/about"

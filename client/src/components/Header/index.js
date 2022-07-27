@@ -11,7 +11,7 @@ function Header() {
                     </h1>
                 </Link>
                 <ul className="nav">
-                    <Link to='/resume'>
+                    <Link to='/resume' className="nav-item nav-link">
                         Resume
                     </Link>
                     <Link to='/about' className="nav-item nav-link">
@@ -19,6 +19,9 @@ function Header() {
                     </Link>
                     <Link to='/contact' className="nav-item nav-link">
                         Contact
+                    </Link>
+                    <Link to='/portfolio' className="nav-item nav-link">
+                        Portfolio
                     </Link>
                 </ul>
             </div>
