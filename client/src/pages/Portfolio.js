@@ -41,22 +41,26 @@ function Portfolio() {
     ]
     return (
         <div>
-            <div className='flex-row'>
+            <h2 className='text-muted'> Featured Projects </h2>
+            <div className='row'>
                 {projectsArr.map((project, i) => (
-                    <div>
-                        <h1> {project.name} </h1>
-                        <img
-                            src={project.image}
-                            alt={project.name}
-                            className='img-thumbnail mx-1'
-                            key={project.name}
-                        />
-                        <p> {project.description} </p>
+                    <div className="col-5 my-2">
+                        <div className="border rounded border-dark">
+                            <div className="card">
+                                <a href={project.link} target="_blank">
+                                <img src={project.image} className="card-img-top" alt={project.name} />
+                                </a>
+                                <div className="card-body">
+                                    <h5 className="card-title">{project.name}</h5>
+                                    <p className="card-text">{project.description}</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>
         </div>
-                )
+    )
 }
 
 export default Portfolio

@@ -16,7 +16,7 @@ function Contact() {
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`A ${e.target.name} is required to contact us.`);
+                setErrorMessage(`A ${e.target.name} is required to submit a contact form.`);
             } else {
                 setErrorMessage('');
             }

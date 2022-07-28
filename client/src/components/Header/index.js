@@ -7,7 +7,7 @@ function Header() {
             <div>
                 <Link to='/' className="text-decoration-none ">
                     <h1 className="pt-2 text-muted">
-                    Portfolio
+                    Brandon Perez
                     </h1>
                 </Link>
                 <ul className="nav">
