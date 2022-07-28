@@ -4,7 +4,7 @@ import photo from '../assets/IMG_0258.JPG'
 function About() {
     return (
         <section className='my-3'>
-            <h1 id="about" className="text-muted"> Who am I?</h1>
+            <h1 id="about" style={{color: "#FEFFBE"}}> Who am I?</h1>
             <img className="img-thumbnail" style={{
                 height: "600px",
                 width: "350px"

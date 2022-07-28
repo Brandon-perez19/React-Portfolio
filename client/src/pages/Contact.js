@@ -34,7 +34,7 @@ function Contact() {
 
     return (
         <section>
-            <h2 className="fst-italic text-muted">Contact Me!</h2>
+            <h2 className="fst-italic" style={{color: "#FEFFBE"}}>Contact Me!</h2>
             <form className="mb-3 mx-5 border rounded bg-light" onSubmit={handleSubmit}>
 
                 <div className="mx-3 mt-2">
