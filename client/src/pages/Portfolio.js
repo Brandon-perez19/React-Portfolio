@@ -5,6 +5,7 @@ import eCommerce from '../assets/E-Commerce.png'
 import techBlog from '../assets/Tech-Blog.png'
 import deepThoughts from '../assets/Deep-Thoughts.png'
 import bookSearch from '../assets/Book-Search.png'
+import application from '../assets/application.png'
 
 function Portfolio() {
     const projectsArr = [
@@ -43,6 +44,12 @@ function Portfolio() {
             image: techBlog,
             link: "https://whispering-plateau-17922.herokuapp.com/",
             github:"https://github.com/Brandon-perez19/Tech-Blog"
+        },
+        {
+            name: "Get Fit!",
+            image: application,
+            link: "https://mern-workout-tracker.herokuapp.com/",
+            github:"https://github.com/Disha2022/mern_spa_project"
         }
     ]
     return (
