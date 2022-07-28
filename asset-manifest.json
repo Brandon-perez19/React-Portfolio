@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/client/static/css/main.073c9b0a.css",
-    "main.js": "/client/static/js/main.6f2ffe3a.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/client/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/E-Commerce.png": "/client/static/media/E-Commerce.f2a88a1991619dafc45b.png",
-    "static/media/IMG_0258.JPG": "/client/static/media/IMG_0258.11559493b3e6d22c1d18.JPG",
-    "static/media/Deep-Thoughts.png": "/client/static/media/Deep-Thoughts.1d6f3edfaf40865430b9.png",
-    "static/media/Team-Profile-Generator.png": "/client/static/media/Team-Profile-Generator.2dd92327d1153772431a.png",
-    "static/media/Book-Search.png": "/client/static/media/Book-Search.bad005b501280e382fad.png",
-    "static/media/Budget-Tracker.png": "/client/static/media/Budget-Tracker.f27345253deae1514f2b.png",
-    "static/media/Tech-Blog.png": "/client/static/media/Tech-Blog.46195696447e2f031fd9.png",
-    "static/media/resume.jpeg": "/client/static/media/resume.90513c75baba70b92e66.jpeg",
-    "static/media/linkedin.png": "/client/static/media/linkedin.ab7644f18965cdeea483.png",
-    "static/media/GitHub-logo.png": "/client/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
-    "static/media/stackoverflow.png": "/client/static/media/stackoverflow.0123b8df35f2e7d20bc8.png",
-    "index.html": "/client/index.html",
-    "main.073c9b0a.css.map": "/client/static/css/main.073c9b0a.css.map",
-    "main.6f2ffe3a.js.map": "/client/static/js/main.6f2ffe3a.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/client/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/React-Portfolio/client/static/css/main.073c9b0a.css",
+    "main.js": "/React-Portfolio/client/static/js/main.477e2bd4.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/React-Portfolio/client/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/E-Commerce.png": "/React-Portfolio/client/static/media/E-Commerce.f2a88a1991619dafc45b.png",
+    "static/media/IMG_0258.JPG": "/React-Portfolio/client/static/media/IMG_0258.11559493b3e6d22c1d18.JPG",
+    "static/media/Deep-Thoughts.png": "/React-Portfolio/client/static/media/Deep-Thoughts.1d6f3edfaf40865430b9.png",
+    "static/media/Team-Profile-Generator.png": "/React-Portfolio/client/static/media/Team-Profile-Generator.2dd92327d1153772431a.png",
+    "static/media/Book-Search.png": "/React-Portfolio/client/static/media/Book-Search.bad005b501280e382fad.png",
+    "static/media/Budget-Tracker.png": "/React-Portfolio/client/static/media/Budget-Tracker.f27345253deae1514f2b.png",
+    "static/media/Tech-Blog.png": "/React-Portfolio/client/static/media/Tech-Blog.46195696447e2f031fd9.png",
+    "static/media/resume.jpeg": "/React-Portfolio/client/static/media/resume.90513c75baba70b92e66.jpeg",
+    "static/media/linkedin.png": "/React-Portfolio/client/static/media/linkedin.ab7644f18965cdeea483.png",
+    "static/media/GitHub-logo.png": "/React-Portfolio/client/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
+    "static/media/stackoverflow.png": "/React-Portfolio/client/static/media/stackoverflow.0123b8df35f2e7d20bc8.png",
+    "index.html": "/React-Portfolio/client/index.html",
+    "main.073c9b0a.css.map": "/React-Portfolio/client/static/css/main.073c9b0a.css.map",
+    "main.477e2bd4.js.map": "/React-Portfolio/client/static/js/main.477e2bd4.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/React-Portfolio/client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.6f2ffe3a.js"
+    "static/js/main.477e2bd4.js"
   ]
 }
