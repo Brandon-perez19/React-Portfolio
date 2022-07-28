@@ -25,7 +25,7 @@
   ![](/client/src/assets/portfolio.png)
   
   ## Link to Deployment <br>
-  https://mern-workout-tracker.herokuapp.com/
+  https://brandon-perez19.github.io/React-Portfolio/
 
   ## How to Contribute <br>
   No contributions are needed. Feedback is always appreciated
