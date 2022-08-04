@@ -8,7 +8,15 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, useRoutes } from 'react-router-dom'
+
+//used due to multiple paths to the same component
+const About2 = () => 
+  useRoutes([
+    {path:"/", element: <About />},
+    {path:"/about", element: <About />},
+    {path:"React-Portfolio", element: <About />}
+  ])
 
 function App() {
   return (
@@ -16,15 +24,9 @@ function App() {
         <div className="App" style={{backgroundColor: "#EBD494"}}>
           <Header />
           <main>
+          {/* This tag needs to be within Router tags, but not within Routes as its not a react componet or fragment  */}
+          <About2 />
             <Routes>
-              <Route
-                path='/'
-                element={<About />}
-              />
-              <Route
-                path="/about"
-                element={<About />}
-              />
               <Route
                 path="/contact"
                 element={<Contact />}
@@ -36,7 +38,7 @@ function App() {
               <Route
               path="/resume"
               element={<Resume />}
-            />
+              />
               <Route
                 path="*"
                 element={<NoMatch />}
