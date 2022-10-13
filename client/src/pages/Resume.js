@@ -1,4 +1,4 @@
-import resume from '../assets/resume.jpeg'
+import resume from '../assets/Brandon_Perez_Resume.pdf'
 
 function Resume() {
     return (
