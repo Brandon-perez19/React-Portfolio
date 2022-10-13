@@ -21,7 +21,7 @@ const About2 = () =>
 function App() {
   return (
       <Router>
-        <div className="App" style={{backgroundColor: "#EBD494"}}>
+        <div className="App">
           <Header />
           <main>
           {/* This tag needs to be within Router tags, but not within Routes as its not a react componet or fragment  */}
