@@ -5,9 +5,9 @@ import linkedin from '../../assets/linkedin.png'
 
 function Footer() {
     return (
-        <footer className='border-top row'style={{backgroundColor: "#472836", marginTop: "auto"}}>
+        <footer className='border-top border-dark row'style={{backgroundColor: "#685044"}}>
             <div className="col">
-                <p className="fst-italic pt-3"  style={{color: "#FEFFBE"}}> Thank you for visiting! </p>
+                <p className="fst-italic pt-3"  style={{color: "#aec5eb"}}> Thank you for visiting! </p>
             </div>
             <div className="col">
                 <a href="https://github.com/Brandon-perez19"><img src={githubPng} className="img-thumbnail" style={{

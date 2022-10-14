@@ -3,7 +3,7 @@ import resume from '../assets/Brandon_Perez_Resume.pdf'
 function Resume() {
     return (
         <div className='viewer'>
-            <h2 style={{ color: "#FEFFBE" }}> Professional Skills </h2>
+            <h2> Professional Skills </h2>
             <div>
                 <h4>Click <a href={resume} className="text-decoration-none link-light " download> here </a> to download my resume! </h4>
             </div>

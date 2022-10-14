@@ -34,8 +34,8 @@ function Contact() {
 
     return (
         <div className="viewer">
-            <h2 className="fst-italic" style={{color: "#FEFFBE"}}>Contact Me!</h2>
-            <form className="mb-3 mx-5 border rounded bg-light" onSubmit={handleSubmit}>
+            <h2 className="fst-italic">Contact Me!</h2>
+            <form className="mb-3 mx-5 border border-dark rounded bg-light" onSubmit={handleSubmit}>
 
                 <div className="mx-3 mt-2">
                     <label className="form-label" htmlFor="name"> Name: </label>

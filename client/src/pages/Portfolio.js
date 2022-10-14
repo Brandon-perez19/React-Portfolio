@@ -54,7 +54,7 @@ function Portfolio() {
     ]
     return (
         <div>
-            <h2 style={{ color: "#FEFFBE" }}> Featured Projects </h2>
+            <h2> Featured Projects </h2>
             <div className='row'>
                 {projectsArr.map((project, i) => (
                     <div className="col-5 my-2">
