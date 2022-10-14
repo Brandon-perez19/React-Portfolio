@@ -13,13 +13,13 @@ function Portfolio() {
             name: "Book Search Engine",
             image: bookSearch,
             link: "https://salty-mountain-82785.herokuapp.com/",
-            github:"https://github.com/Brandon-perez19/Book-Search-Engine"
+            github: "https://github.com/Brandon-perez19/Book-Search-Engine"
         },
         {
             name: "Budget Tracker",
             image: budgetTracker,
             link: "https://aqueous-castle-91439.herokuapp.com/",
-            github:"https://github.com/Brandon-perez19/Budget-Tracker"
+            github: "https://github.com/Brandon-perez19/Budget-Tracker"
         },
         {
             name: "Deep Thoughts",
@@ -43,25 +43,25 @@ function Portfolio() {
             name: "Tech Blog",
             image: techBlog,
             link: "https://whispering-plateau-17922.herokuapp.com/",
-            github:"https://github.com/Brandon-perez19/Tech-Blog"
+            github: "https://github.com/Brandon-perez19/Tech-Blog"
         },
         {
             name: "Get Fit!",
             image: application,
             link: "https://mern-workout-tracker.herokuapp.com/",
-            github:"https://github.com/Disha2022/mern_spa_project"
+            github: "https://github.com/Disha2022/mern_spa_project"
         }
     ]
     return (
-        <div className='viewer'>
-            <h2 style={{color: "#FEFFBE"}}> Featured Projects </h2>
+        <div>
+            <h2 style={{ color: "#FEFFBE" }}> Featured Projects </h2>
             <div className='row'>
                 {projectsArr.map((project, i) => (
                     <div className="col-5 my-2">
                         <div className="border rounded border-dark">
                             <div className="card">
                                 <a href={project.link} rel="noreferrer" target="_blank">
-                                <img src={project.image} className="card-img-top" alt={project.name} />
+                                    <img src={project.image} className="card-img-top" alt={project.name} />
                                 </a>
                                 <div className="card-body">
                                     <h5 className="card-title">{project.name}</h5>
