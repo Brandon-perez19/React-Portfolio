@@ -2,11 +2,14 @@ import resume from '../assets/Brandon_Perez_Resume.pdf'
 
 function Resume() {
     return (
-        <div>
+        <div className='viewer'>
             <h2 style={{ color: "#FEFFBE" }}> Professional Skills </h2>
             <div>
-                <div style={{ display: "inline-block", textAlign: "left" }}>
-                    <ul className="list-group list-group-flush" >
+                <h4>Click <a href={resume} className="text-decoration-none link-light " download> here </a> to download my resume! </h4>
+            </div>
+            <section>
+                <div className='viewer' style={{display: "inline", textAlign: "left"}}>
+                    <ul>
                         <li> Database integration</li>
                         <li> MongoDB</li>
                         <li> SQL</li>
@@ -24,10 +27,7 @@ function Resume() {
                         <li> Adaptability </li>
                     </ul>
                 </div>
-                <div style={{ display: "inline-block", textAlign: "right" }}>
-                    <h4>Click <a href={resume} className="text-decoration-none" download> here </a> to download my resume! </h4>
-                </div>
-            </div>
+            </section>
         </div>
     )
 }

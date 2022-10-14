@@ -53,7 +53,7 @@ function Portfolio() {
         }
     ]
     return (
-        <div>
+        <div className='viewer'>
             <h2 style={{color: "#FEFFBE"}}> Featured Projects </h2>
             <div className='row'>
                 {projectsArr.map((project, i) => (

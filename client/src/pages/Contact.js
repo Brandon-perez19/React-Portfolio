@@ -33,7 +33,7 @@ function Contact() {
     }
 
     return (
-        <section>
+        <div className="viewer">
             <h2 className="fst-italic" style={{color: "#FEFFBE"}}>Contact Me!</h2>
             <form className="mb-3 mx-5 border rounded bg-light" onSubmit={handleSubmit}>
 
@@ -56,7 +56,7 @@ function Contact() {
                 )}
                 <button type="submit" className="btn btn-primary mb-2"> Submit</button>
             </form>
-        </section>
+        </div>
 
     )
 }

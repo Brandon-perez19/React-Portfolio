@@ -5,7 +5,7 @@ import linkedin from '../../assets/linkedin.png'
 
 function Footer() {
     return (
-        <footer className='border-top row fixed-bottom'style={{backgroundColor: "#472836"}}>
+        <footer className='border-top row'style={{backgroundColor: "#472836", marginTop: "auto"}}>
             <div className="col">
                 <p className="fst-italic pt-3"  style={{color: "#FEFFBE"}}> Thank you for visiting! </p>
             </div>
