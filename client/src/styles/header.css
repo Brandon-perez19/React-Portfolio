@@ -1,0 +1,28 @@
+.header {
+    background-color: #3a405a;  /* Dark Slate Blue */
+    border-bottom: 1px solid #333;  /* Adds a subtle border */
+}
+
+.header-title {
+    padding-top: 2rem;
+    color: #aec5eb;  /* Soft Light Blue */
+    margin-left: 20px;  /* Optional spacing */
+}
+
+.nav {
+    display: flex;
+    list-style: none;  /* Removes default list styling */
+    padding: 0;
+}
+
+.nav-item {
+    padding: 10px 15px;
+    color: #aec5eb;  /* Soft Light Blue */
+    text-decoration: none;  /* Removes underline */
+}
+
+.nav-item:hover, .nav-item:focus {
+    background-color: #007BFF;  /* Deep Sky Blue for hover */
+    color: #ffffff;  /* White text on hover */
+    border-radius: 5px;  /* Optional rounded corners on hover */
+}

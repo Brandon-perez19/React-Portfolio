@@ -2,6 +2,7 @@
     background-color: lightgrey;
     padding: 20px;
     border-radius: 8px;
+    border: 1px solid black;
 }
 
 .skills-list {
@@ -12,4 +13,8 @@
 
 .skills-list li {
     flex: 1 1 calc(25% - 10px);
+}
+
+.link {
+    color: #3a405a;
 }

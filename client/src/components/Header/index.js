@@ -1,26 +1,27 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import '../../styles/header.css'
 
 function Header() {
     return (
-        <header className="border-bottom border-dark" style={{backgroundColor: "#3a405a"}}>
+        <header className="header">
             <div>
                 <Link to='/' className="text-decoration-none ">
-                    <h1 className="pt-2" style={{color: "#aec5eb"}}>
+                    <h1 className="header-title">
                     Brandon Perez
                     </h1>
                 </Link>
                 <ul className="nav">
-                    <Link to='/resume' style={{color: "#aec5eb"}} className="nav-item nav-link">
+                    <Link to='/resume'className="nav-item">
                         Resume
                     </Link>
-                    <Link to='/about' style={{color: "#aec5eb"}} className="nav-item nav-link">
+                    <Link to='/about' className="nav-item">
                         About
                     </Link>
-                    <Link to='/contact' style={{color: "#aec5eb"}} className="nav-item nav-link">
+                    <Link to='/contact' className="nav-item">
                         Contact
                     </Link>
-                    <Link to='/portfolio' style={{color: "#aec5eb"}} className="nav-item nav-link">
+                    <Link to='/portfolio' className="nav-item">
                         Portfolio
                     </Link>
                 </ul>

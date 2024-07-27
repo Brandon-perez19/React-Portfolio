@@ -9,7 +9,13 @@ function About() {
             <div className='about-content mt-4'>
                 <img className="img-thumbnail profile-photo" src={photo} alt='Brandon Perez'></img>
                 <p className='about-text'>
-                    Hello there! Thank you for taking a look at my digital portfolio. My name is Brandon Perez, I am a 23-year passionate junior developer wanting to change my career field in the world of code. I'm excited to keep up with an ever-changing world or technology and push myself to learn new laguages and forms of development! I studied at University of Central Florida's bootcamp for web development that focused on a full-stack view. Making me proficent in the development of front-end processes and back-end as well. My training had me focused primarily on the coding language JavaScript, but through continuation courses provided by the Universit, I have pushed myself to learn Java, C#, Python and AWS. I take everything I do with 110% effort as I believe your work is an exstention of yourself. If you want to be the best, you have to show your best efforts while not being scared to ask for help along the way!
+                Hello, and thank you for visiting my digital portfolio. My name is Brandon Perez. At 25 years old, I am a dedicated and enthusiastic junior developer who has transitioned into the tech industry with a deep commitment to mastering the art of coding.
+
+I embarked on my tech journey at the University of Central Florida's boot camp, where I honed my skills in both front-end and back-end development, embracing a full-stack perspective. My primary training focused on JavaScript, setting a solid foundation for my coding skills. Eager to expand my expertise, I have also pursued additional courses in Java, C#, Python, and AWS, continually pushing the boundaries of my knowledge and abilities.
+
+I approach every project with unwavering dedication, believing that the quality of one's work is a reflection of their character. Striving for excellence is not just about personal achievement but about being open to learning from others and seeking assistance when needed. I am excited about the opportunities to innovate and excel in this ever-evolving tech landscape.
+
+
                 </p>
             </div>
         </div>

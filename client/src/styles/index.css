@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color: #efefef;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -49,4 +49,9 @@ ul {
 
 footer img {
   margin-right: 5px;
+}
+
+.button-highlight, .cta { /* Example class names for call-to-action elements */
+  background-color: #FF6B6B; /* Coral for accent elements */
+  color: #ffffff; /* White text for readability */
 }
