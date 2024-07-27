@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {validateEmail} from "../utils/helpers";
+import '../styles/contact.css'
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -23,7 +24,6 @@ function Contact() {
         }
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
-            console.log('Handle Form', formState);
         }
     }
 
@@ -33,31 +33,29 @@ function Contact() {
     }
 
     return (
-        <div className="viewer">
-            <h2 className="fst-italic">Contact Me!</h2>
-            <form className="mb-3 mx-5 border border-dark rounded bg-light" onSubmit={handleSubmit}>
-
-                <div className="mx-3 mt-2">
-                    <label className="form-label" htmlFor="name"> Name: </label>
+        <div className="container viewer">
+            <h2 className="contact-title mt-4">Contact Me!</h2>
+            <form className="contact-form" onSubmit={handleSubmit}>
+                <div className="form-group">
+                    <label htmlFor="name"> Name: </label>
                     <input className="form-control" onBlur={handleChange} name="name" type='text' placeholder="Name" defaultValue={name}></input>
                 </div>
-                <div className="mx-3">
-                    <label className="form-label" htmlFor="email"> Email: </label>
+                <div className="form-group">
+                    <label htmlFor="email"> Email: </label>
                     <input className="form-control" onBlur={handleChange} name='email' type='email' placeholder="Email" defaultValue={email}></input>
                 </div>
-                <div className="mx-3 mb-2">
-                    <label className="form-label" htmlFor='message'> Message: </label>
+                <div className="form-group">
+                    <label htmlFor='message'> Message: </label>
                     <textarea className="form-control" onBlur={handleChange} name='message' rows='5' placeholder='Your message here...' defaultValue={message}></textarea>
                 </div>
                 {errorMessage && (
-                    <div>
-                        <p className='error-text'> {errorMessage} </p>
+                    <div className="error-text">
+                        {errorMessage}
                     </div>
                 )}
-                <button type="submit" className="btn btn-primary mb-2"> Submit</button>
+                <button type="submit" className="btn btn-primary mt-3"> Submit</button>
             </form>
         </div>
-
     )
 }
 export default Contact

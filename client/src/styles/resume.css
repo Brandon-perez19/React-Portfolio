@@ -1,0 +1,15 @@
+.viewer {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    flex: 1 1 calc(25% - 10px);
+}

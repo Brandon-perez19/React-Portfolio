@@ -6,6 +6,7 @@ import techBlog from '../assets/Tech-Blog.png'
 import deepThoughts from '../assets/Deep-Thoughts.png'
 import bookSearch from '../assets/Book-Search.png'
 import application from '../assets/application.png'
+import '../styles/portfolio.css'
 
 function Portfolio() {
     const projectsArr = [
@@ -53,21 +54,17 @@ function Portfolio() {
         }
     ]
     return (
-        <div>
-            <h2> Featured Projects </h2>
+        <div className='container viewer'>
+            <h2 className='mt-4'> Featured Projects </h2>
             <div className='row'>
                 {projectsArr.map((project, i) => (
-                    <div className="col-5 my-2">
-                        <div className="border rounded border-dark">
-                            <div className="card">
-                                <a href={project.link} rel="noreferrer" target="_blank">
-                                    <img src={project.image} className="card-img-top" alt={project.name} />
-                                </a>
-                                <div className="card-body">
-                                    <h5 className="card-title">{project.name}</h5>
-                                    <p className="card-text">{project.description}</p>
-                                    <a href={project.github} rel="noreferrer" target="_blank">GitHub Repository</a>
-                                </div>
+                    <div key={i} className="col-lg-4 col-md-6 mb-4">
+                        <div className="card h-100">
+                            <img src={project.image} className="card-img-top" alt={project.name} />
+                            <div className="card-body">
+                                <h5 className="card-title">{project.name}</h5>
+                                <a href={project.link} className='btn btn-primary mb-2'>Live Demo</a>
+                                <a href={project.github} className='btn btn-secondary'>GitHub</a>
                             </div>
                         </div>
                     </div>

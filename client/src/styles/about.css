@@ -1,0 +1,24 @@
+.viewer {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.profile-photo {
+    height: 300px;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6;
+}

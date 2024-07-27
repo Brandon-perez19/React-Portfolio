@@ -2,23 +2,18 @@ import React from "react";
 import githubPng from "../../assets/GitHub-logo.png"
 import stackoverflow from '../../assets/stackoverflow.png'
 import linkedin from '../../assets/linkedin.png'
+import "../../styles/footer.css"
 
 function Footer() {
     return (
-        <footer className='border-top border-dark row'style={{backgroundColor: "#685044"}}>
-            <div className="col">
-                <p className="fst-italic pt-3"  style={{color: "#aec5eb"}}> Thank you for visiting! </p>
-            </div>
-            <div className="col">
-                <a href="https://github.com/Brandon-perez19"><img src={githubPng} className="img-thumbnail" style={{
-                    height: "50px", width: "80px"
-                }} alt=''></img></a>
-                <a href="https://www.linkedin.com/in/brandon-perez-9274911b5/"><img src={linkedin} className="img-thumbnail" style={{
-                    height: "50px", width: "50px"
-                }} alt=''></img></a>
-                <a href="https://stackoverflow.com/users/16615549/brandon-perez19"><img src={stackoverflow} className="img-thumbnail" style={{
-                    height: "50px", width: "50px"
-                }} alt=''></img></a>
+        <footer className='footer'>
+            <div className="footer-content">
+                <p className="footer-text"> Thank you for visiting! </p>
+                <div className="footer-icons">
+                    <a href="https://github.com/Brandon-perez19"><img src={githubPng} className="img-thumbnail footer-icon" alt="Github"></img></a>
+                    <a href="https://www.linkedin.com/in/brandon-perez-9274911b5/"><img src={linkedin} className="img-thumbnail footer-icon" alt='LinkedIn'></img></a>
+                    <a href="https://stackoverflow.com/users/16615549/brandon-perez19"><img src={stackoverflow} className="img-thumbnail footer-icon" alt="Stack Overflow"></img></a>
+                </div>
             </div>
         </footer>
     )

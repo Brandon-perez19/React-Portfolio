@@ -1,0 +1,30 @@
+.footer {
+    background-color: #685044;
+    border-top: 1px solid #000;
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-text {
+    color: #aec5eb;
+    font-style: italic;
+    margin: 0;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icon {
+    height: 50px;
+    width: auto;
+}
