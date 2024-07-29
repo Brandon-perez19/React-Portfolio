@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2da10100.css",
-    "main.js": "/React-Portfolio/static/js/main.05780228.js",
+    "main.css": "/React-Portfolio/static/css/main.047f4c51.css",
+    "main.js": "/React-Portfolio/static/js/main.1b341605.js",
     "static/js/787.c4e7f8f9.chunk.js": "/React-Portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/application.png": "/React-Portfolio/static/media/application.2e0db7922a01d4d8f0d7.png",
     "static/media/E-Commerce.png": "/React-Portfolio/static/media/E-Commerce.f2a88a1991619dafc45b.png",
     "static/media/IMG_0258.JPG": "/React-Portfolio/static/media/IMG_0258.11559493b3e6d22c1d18.JPG",
+    "static/media/certificate.png": "/React-Portfolio/static/media/certificate.40957faeea65e8e34501.png",
     "static/media/Deep-Thoughts.png": "/React-Portfolio/static/media/Deep-Thoughts.1d6f3edfaf40865430b9.png",
     "static/media/Team-Profile-Generator.png": "/React-Portfolio/static/media/Team-Profile-Generator.2dd92327d1153772431a.png",
     "static/media/Brandon_Perez_Resume.pdf": "/React-Portfolio/static/media/Brandon_Perez_Resume.84586156de1c3a37dcf1.pdf",
@@ -16,12 +17,12 @@
     "static/media/GitHub-logo.png": "/React-Portfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
     "static/media/stackoverflow.png": "/React-Portfolio/static/media/stackoverflow.0123b8df35f2e7d20bc8.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.2da10100.css.map": "/React-Portfolio/static/css/main.2da10100.css.map",
-    "main.05780228.js.map": "/React-Portfolio/static/js/main.05780228.js.map",
+    "main.047f4c51.css.map": "/React-Portfolio/static/css/main.047f4c51.css.map",
+    "main.1b341605.js.map": "/React-Portfolio/static/js/main.1b341605.js.map",
     "787.c4e7f8f9.chunk.js.map": "/React-Portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2da10100.css",
-    "static/js/main.05780228.js"
+    "static/css/main.047f4c51.css",
+    "static/js/main.1b341605.js"
   ]
 }
