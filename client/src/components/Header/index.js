@@ -8,7 +8,7 @@ function Header() {
             <div>
                 <Link to='/' className="text-decoration-none ">
                     <h1 className="header-title">
-                    Brandon Perez
+                    Brandon Perez | Web Developer Portfolio
                     </h1>
                 </Link>
                 <ul className="nav">
@@ -23,6 +23,9 @@ function Header() {
                     </Link>
                     <Link to='/portfolio' className="nav-item">
                         Portfolio
+                    </Link>
+                    <Link to='/certificate' className="nav-item">
+                        Certification
                     </Link>
                 </ul>
             </div>

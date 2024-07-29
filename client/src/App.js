@@ -6,6 +6,7 @@ import Resume from './pages/Resume'
 import NoMatch from './pages/NoMatch';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Certification from "./pages/Certification"
 import './styles/App.css';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
@@ -40,6 +41,10 @@ function App() {
               <Route
               path="/resume"
               element={<Resume />}
+              />
+              <Route
+              path="/certificate"
+              element={<Certification />}
               />
               <Route
                 path="*"

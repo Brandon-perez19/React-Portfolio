@@ -7,9 +7,8 @@ function Resume() {
             <div className='download-resume my-4'>
                 <h4>Click <a href={resume} className="link" download>here</a> to download my resume!</h4>
             </div>
-            <section>
+            <section className='skills-container'>
                     <ul className='skills-list list-unstyled'>
-                        
                         <li> JavaScript</li>
                         <li> BootStrap</li>
                         <li> Node.js</li>

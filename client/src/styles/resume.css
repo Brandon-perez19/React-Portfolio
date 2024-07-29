@@ -5,6 +5,10 @@
     border: 1px solid black;
 }
 
+.skills-container {
+    border-top: 1px solid #3a405a;
+    padding-top: 15px;
+}
 .skills-list {
     display: flex;
     flex-wrap: wrap;
